@@ -1,12 +1,9 @@
 # The NeoDefaults Installer
 
-NOTICE: This project is still in development and has not yet been released.
-
-&nbsp;
-
-A no-nonsense config installer geared towards new players of Team Fortress 2. It is designed to be
-fast, seamless, and as easy to use as possible. It can be used as a quick "set and forget" for those
-who don't want to bother customizing their game manually, but still want the essentials.
+NeoDefaults is a config installer geared towards new players of Team Fortress 2. It is designed to
+modify game settings to values that everyone should use, and in a way that is as fast, seamless,
+and as easy to use as possible. It can be used as a quick "set and forget" for those who don't want
+to bother customizing their game manually, but still want the essentials.
 
 ## The Problem
 Team Fortress 2's default settings are horribly out-of-date, and terrible for new players. The good
@@ -60,13 +57,13 @@ ideal. When you run the installer, it creates the `neodefaults.cfg` file on your
 tells TF2 to always run this file when you start your game.
 
 ## Minimum Requirements
-The installer is currently only available for Windows systems that can run .NET 4.6.2 or later. This
-corresponds to Windows 7 and later. In the unlikely case that you don't have such a version
-installed, Windows will install it for you when you launch the program.
+The installer is currently only supported for systems that use Windows 8 or 10.
 
-## How To Install
+## Instructions (Windows only)
 1. Download the installer here (link to be provided at a later date).
-2. Run the `.exe` file and walk through the setup.
+1. If you're using Windows 8, you may need to right-click the installer and select "Run as
+Administrator".
+1. Launch the installer and walk through the setup.
 
 ## mastercomfig Support
 TF2 installs that use [mastercomfig](https://mastercomfig.com/) are supported by NeoDefaults. This
@@ -80,17 +77,30 @@ If you are planning to install mastercomfig, make sure to do that before running
 ## FAQ
 The FAQ is available [here](docs/FAQ.md).
 
+## Contact Me
+Before reaching out, first check the [FAQ](docs/FAQ.md) to make sure your question hasn't already
+been answered. If there's nothing there related to your question, then you can do one of the
+following:
+* Send an e-mail to neodefaults.tf2@gmail.com.
+* DM me on Twitter: [@0x0ACE_](https://twitter.com/0x0ACE_)
+* Open [a new issue](https://github.com/kqarryzada/TF2-NeoDefaults/issues) here on GitHub.
+
+For a bug report or for help diagnosing issues, you must include the log file that was generated
+when you ran into the problem. You can find more info about the log file
+[here](docs/More-Info.md/#the-log-file).
+
 ## More Information
-In the interest of keeping this page short, additional information is available on the
+In the interest of shortening this page, additional information is available on the
 [More Info](docs/More-Info.md) page, which discusses:
 * An explanation of what each component is and why it's added
 * How to customize what NeoDefaults changes
 * How to diagnose and report issues
 
-## Special Thanks To...
+## Special Thanks
+In no particular order, a special thank you to:
 * Eniere for their work on the [Improved Default HUD](https://huds.tf/forum/showthread.php?tid=276),
 which inspired this project to improve the appearance of damage numbers.
-* the mastercomfig team for their thorough [documentation](https://docs.mastercomfig.com/en/latest/).
+* The mastercomfig team for their thorough [documentation](https://docs.mastercomfig.com/en/latest/).
 * [b4nny](https://www.twitch.tv/b4nny) for sharing his hitsound and the associated pitch settings.
 
 ## License

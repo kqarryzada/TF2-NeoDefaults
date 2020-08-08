@@ -76,8 +76,9 @@ be solved when the uninstall tool is released.
 ## The log file
 Computers are complex machines, and it's possible that you could run into problems while trying to
 run the installer. To help diagnose these, the installer writes its operations to a log file. This
-is usually stored in `C:\ProgramData\NeoDefaults\log.txt`. If you open the file, it will look
-something like:
+is stored under the `NeoDefaults` folder in `ProgramData`. You can get to the ProgramData folder by
+opening the start menu and typing `%ProgramData%`. If you open the log file, it will look something
+like:
 ```
 Logfile initialized on: 5/18/2020 11:26:44 PM
 Version 1.0.0
@@ -89,14 +90,8 @@ Checking if the path exists: C:\Program Files (x86)\Steam\SteamApps\common\Team 
 ...
 ```
 You can refer to this file for more detail on what happened the last time the program was run,
-especially if you're trying to diagnose a problem. Any errors that occur will have the associated
-stacktraces printed here.
+especially if you're trying to find the cause of an error. Any failures that occur will have the
+associated stacktraces printed here.
 
 The log file is rotated to keep the two most recent runs (if the installer is run multiple times),
 which are named `log.txt` and `log_prev.txt`. All older logs will be deleted.
-
-## Reporting a problem or bug
-If you run into problems, first check the [FAQ](FAQ.md/#faq) to make sure your question hasn't
-already been answered. If there's nothing there related to your question, then open
-[a new issue](https://github.com/kqarryzada/TF2-NeoDefaults/issues) here on GitHub. It would be
-helpful if you also attach the log file, as discussed in [the previous section](#the-log-file).
